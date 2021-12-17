@@ -17,6 +17,7 @@ jobs:
       - name: Build website
         run: |
           yarn install --frozen-lockfile
+          yarn run remote-download
           yarn build
 
       # Popular action to deploy to GitHub Pages:

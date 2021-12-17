@@ -17,4 +17,5 @@ jobs:
       - name: Test build
         run: |
           yarn install --frozen-lockfile
+          yarn run remote-download
           yarn build
