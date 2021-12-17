@@ -45,13 +45,13 @@ const config = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
                     // Please change this to your repo.
-                    editUrl: 'https://github.com/anansi-project/anansi-project.github.io/edit/main/website/',
+                    editUrl: 'https://github.com/anansi-project/anansi-project.github.io/edit/main/',
                 },
                 // blog: {
                 //     showReadingTime: true,
                 //     // Please change this to your repo.
                 //     editUrl:
-                //         'https://github.com/facebook/anansi-project.github.io/edit/main/website/blog/',
+                //         'https://github.com/facebook/anansi-project.github.io/edit/main/blog/',
                 // },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
