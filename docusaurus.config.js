@@ -15,6 +15,8 @@ const config = {
     favicon: 'img/favicon.ico',
     organizationName: 'anansi-project', // Usually your GitHub org/user name.
     projectName: 'anansi-project.github.io', // Usually your repo name.
+    deploymentBranch: 'gh-pages',
+    trailingSlash: false,
 
     // i18n: {
     //   defaultLocale: 'en',
