@@ -47,12 +47,12 @@ const config = {
                     // Please change this to your repo.
                     editUrl: 'https://github.com/anansi-project/anansi-project.github.io/edit/main/website/',
                 },
-                blog: {
-                    showReadingTime: true,
-                    // Please change this to your repo.
-                    editUrl:
-                        'https://github.com/facebook/anansi-project.github.io/edit/main/website/blog/',
-                },
+                // blog: {
+                //     showReadingTime: true,
+                //     // Please change this to your repo.
+                //     editUrl:
+                //         'https://github.com/facebook/anansi-project.github.io/edit/main/website/blog/',
+                // },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
                 },
@@ -76,7 +76,7 @@ const config = {
                         position: 'left',
                         label: 'Documentation',
                     },
-                    { to: '/blog', label: 'Blog', position: 'left' },
+                    // { to: '/blog', label: 'Blog', position: 'left' },
                     // {
                     //   type: 'localeDropdown',
                     //   position: 'right',
@@ -120,10 +120,10 @@ const config = {
                     {
                         title: 'More',
                         items: [
-                            {
-                                label: 'Blog',
-                                to: '/blog',
-                            },
+                            // {
+                            //     label: 'Blog',
+                            //     to: '/blog',
+                            // },
                             {
                                 label: 'Credits',
                                 to: '/credits',
