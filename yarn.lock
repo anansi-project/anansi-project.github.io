@@ -1162,6 +1162,13 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
 
+"@crowdin/cli@3":
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/@crowdin/cli/-/cli-3.7.4.tgz#5600d8c90d4416325a166fe0cbe339340cebd3af"
+  integrity sha512-gxoJvxq282PWdCQvNRH03wWqBwEXJYlM2aBng5ZbffHLQXVQw7idIeghYJ/7TTwzyXkibq06YPkgAaaJJaoLiw==
+  dependencies:
+    shelljs "^0.8.4"
+
 "@docsearch/css@3.0.0-alpha.42":
   version "3.0.0-alpha.42"
   resolved "https://registry.yarnpkg.com/@docsearch/css/-/css-3.0.0-alpha.42.tgz#deb6049e999d6ca9451eba4793cb5b6da28c8773"

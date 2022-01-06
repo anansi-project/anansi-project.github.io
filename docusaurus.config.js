@@ -3,6 +3,8 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
+const DefaultLocale = 'en';
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -18,10 +20,10 @@ const config = {
     deploymentBranch: 'gh-pages',
     trailingSlash: false,
 
-    // i18n: {
-    //   defaultLocale: 'en',
-    //   locales: ['en', 'fr'],
-    // },
+    i18n: {
+        defaultLocale: 'en',
+        locales: ['en', 'fr'],
+    },
 
     plugins: [
         [
@@ -57,8 +59,13 @@ const config = {
             ({
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
-                    // Please change this to your repo.
-                    editUrl: 'https://github.com/anansi-project/anansi-project.github.io/edit/main/',
+                    editUrl: ({locale, docPath}) => {
+                        // Link to Crowdin
+                        if (locale !== DefaultLocale) {
+                            return `https://crowdin.com/project/anansi-project/${locale}`;
+                        }
+                        return `https://github.com/anansi-project/anansi-project.github.io/edit/main/docs/${docPath}`;
+                    },
                 },
                 // blog: {
                 //     showReadingTime: true,
@@ -90,10 +97,10 @@ const config = {
                         label: 'Documentation',
                     },
                     // { to: '/blog', label: 'Blog', position: 'left' },
-                    // {
-                    //   type: 'localeDropdown',
-                    //   position: 'right',
-                    // },
+                    {
+                        type: 'localeDropdown',
+                        position: 'right',
+                    },
                     {
                         href: 'https://github.com/anansi-project',
                         label: 'GitHub',
