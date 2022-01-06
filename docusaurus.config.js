@@ -33,6 +33,7 @@ const config = {
                 outDir: 'docs/comicinfo/_remote', // the base directory to output to.
                 documents: ['CHANGELOG.md', 'drafts/v2.1/ComicInfo.xsd', 'schema/v2.0/ComicInfo.xsd', 'schema/v1.0/ComicInfo.xsd'], // the file names to download
                 noRuntimeDownloads: true,
+                performCleanup: false,
             },
         ],
         [
@@ -44,6 +45,7 @@ const config = {
                 outDir: 'docs/opds-pse/_remote', // the base directory to output to.
                 documents: ['CHANGELOG.md', 'v1.0.md', 'v1.1.md'], // the file names to download
                 noRuntimeDownloads: true,
+                performCleanup: false,
             },
         ],
     ],
