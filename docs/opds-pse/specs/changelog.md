@@ -4,7 +4,7 @@ title: Changelog
 ---
 
 ```mdx-code-block
-import Changelog, {toc as ChangelogTOC} from "../_remote/CHANGELOG.md"
+import Changelog, {toc as ChangelogTOC} from "@site/docs/opds-pse/_remote/CHANGELOG.md"
 
 <Changelog />
 
