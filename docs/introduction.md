@@ -24,7 +24,7 @@ and start discussing a new metadata model that would address all the griefs from
 A lot of feedback was gathered, and a new data model has been drafted, but time being a scarce resource, this is still a
 work in progress.
 
-In December 2022, following a request by a Komga user to enhance the OPDS feed, gotson decided to make some changes to
+In December 2021, following a request by a Komga user to enhance the OPDS feed, gotson decided to make some changes to
 the OPDS Page Streaming Extension. The 1.0 specification was written in 2014 for Ubooquity, but is now used by many
 application. Ubooquity was already inactive for a couple of years, so changing the specification would mean publish it
 somewhere. gotson already had a mirror of the 1.0 specification, in case the original page would suddenly go down.
