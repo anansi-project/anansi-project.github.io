@@ -17,7 +17,7 @@ At the moment, the Anansi Project comprises 3 initiatives:
 
 ## A bit of history
 
-The Anansi Project was started in August 2021 by gotson, the developer of Komga. The initial aim was to gather feedback
+The Anansi Project was started in August 2020 by gotson, the developer of Komga. The initial aim was to gather feedback
 and comments around comicbook metadata: the different formats and their limitations, the websites publishing metadata,
 and start discussing a new metadata model that would address all the griefs from existing solutions.
 
