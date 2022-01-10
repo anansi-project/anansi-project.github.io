@@ -1,3 +1,5 @@
+[![Crowdin](https://badges.crowdin.net/anansi-project/localized.svg)](https://crowdin.com/project/anansi-project)
+
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
