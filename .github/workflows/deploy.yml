@@ -14,14 +14,16 @@ jobs:
         with:
           node-version: 14.x
           cache: yarn
-      - name: Build website
+      - name: yarn install
+        run: yarn install --frozen-lockfile
+      - name: download remote files
+        run: yarn run remote-download
+      - name: sync Crowdin
         env:
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
-        run: |
-          yarn install --frozen-lockfile
-          yarn run remote-download
-          yarn run crowdin:sync
-          yarn build
+        run: yarn run crowdin:sync
+      - name: yarn build
+        run: yarn build
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus

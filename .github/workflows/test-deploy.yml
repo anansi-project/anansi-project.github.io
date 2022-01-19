@@ -14,8 +14,9 @@ jobs:
         with:
           node-version: 14.x
           cache: yarn
-      - name: Test build
-        run: |
-          yarn install --frozen-lockfile
-          yarn run remote-download
-          yarn build
+      - name: yarn install
+        run: yarn install --frozen-lockfile
+      - name: download remote files
+        run: yarn run remote-download
+      - name: yarn build
+        run: yarn build
