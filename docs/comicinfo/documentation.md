@@ -93,6 +93,12 @@ Genre of the book or series. For example, _Science-Fiction_ or _Shonen_.
 
 It is accepted that multiple values are comma separated.
 
+### Tags
+
+Tags of the book or series. For example, _ninja_ or _school life_.
+
+It is accepted that multiple values are comma separated.
+
 ### Web
 
 A URL pointing to a reference website for the book.
