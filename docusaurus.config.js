@@ -43,7 +43,7 @@ const config = {
             {
                 // options here
                 name: 'opds-pse', // used by CLI, must be path safe
-                sourceBaseUrl: 'https://raw.githubusercontent.com/anansi-project/odps-pse/master/', // the base url for the markdown (gets prepended to all of the documents when fetching)
+                sourceBaseUrl: 'https://raw.githubusercontent.com/anansi-project/opds-pse/master/', // the base url for the markdown (gets prepended to all of the documents when fetching)
                 outDir: 'docs/opds-pse/_remote', // the base directory to output to.
                 documents: ['CHANGELOG.md', 'v1.0.md', 'v1.1.md'], // the file names to download
                 noRuntimeDownloads: true,
