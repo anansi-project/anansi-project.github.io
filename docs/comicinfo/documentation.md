@@ -13,6 +13,10 @@ Title of the book.
 
 Title of the series the book is part of.
 
+### SeriesSort
+
+Sorting title of the series the book is part of. ie) "Batman" instead of Series "The Batman"
+
 ### Number
 
 Number of the book in the series.
