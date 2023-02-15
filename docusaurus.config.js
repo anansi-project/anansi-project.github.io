@@ -33,7 +33,7 @@ const config = {
                 name: 'comicinfo', // used by CLI, must be path safe
                 sourceBaseUrl: 'https://raw.githubusercontent.com/anansi-project/comicinfo/main/', // the base url for the markdown (gets prepended to all of the documents when fetching)
                 outDir: 'docs/comicinfo/_remote', // the base directory to output to.
-                documents: ['CHANGELOG.md', 'drafts/v2.1/ComicInfo.xsd', 'schema/v2.0/ComicInfo.xsd', 'schema/v1.0/ComicInfo.xsd'], // the file names to download
+                documents: ['CHANGELOG.md', 'DOCUMENTATION.md', 'drafts/v2.1/ComicInfo.xsd', 'schema/v2.0/ComicInfo.xsd', 'schema/v1.0/ComicInfo.xsd'], // the file names to download
                 noRuntimeDownloads: true,
                 performCleanup: false,
             },
