@@ -13,8 +13,7 @@ for the book to be completely downloaded.
 
 ## History
 
-Recently more applications started implementing the extension, with more features than Ubooquity had. Ubooquity is not
-being actively developed anymore, but the OPDS Page Streaming Extension still needed to evolve.
+Recently more applications started implementing the extension, with more features than Ubooquity had.
 
 We decided to bring the OPDS Page Streaming Extension under the umbrella of the Anansi Project, in order to add more
 features to the specification. We created a GitHub repository to host the different versions of the specification, and

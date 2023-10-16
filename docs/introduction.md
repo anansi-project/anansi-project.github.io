@@ -26,7 +26,7 @@ work in progress.
 
 In December 2021, following a request by a Komga user to enhance the OPDS feed, gotson decided to make some changes to
 the OPDS Page Streaming Extension. The 1.0 specification was written in 2014 for Ubooquity, but is now used by many
-applications. Ubooquity was already inactive for a couple of years, so changing the specification would mean publish it
+applications. Ubooquity having been dormant for a couple of years, changing the specification would mean publish it
 somewhere. gotson already had a mirror of the 1.0 specification, in case the original page would suddenly go down.
 That's when the idea came to bring the OPDS PSE specification under the Anansi Project.
 
